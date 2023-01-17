@@ -150,7 +150,7 @@ function start() {
     };
 
     if (document.getElementById('use-video').checked) {
-        var resolution = "426x240";
+        var resolution = "192×144";
         if (resolution) {
             resolution = resolution.split('x');
             constraints.video = {
